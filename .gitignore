@@ -1,0 +1,18 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/ReportesFacturacion_TME04/ReportesFacturacion/.vs
+/ReportesFacturacion_TME04/ReportesFacturacion/Business/.vs
+/ReportesFacturacion_TME04/ReportesFacturacion/Business/bin/Debug
+/ReportesFacturacion_TME04/ReportesFacturacion/Business/obj/Debug
+/ReportesFacturacion_TME04/ReportesFacturacion/ConsoleApp1/.vs
+/ReportesFacturacion_TME04/ReportesFacturacion/ConsoleApp1/bin/Debug
+/ReportesFacturacion_TME04/ReportesFacturacion/ConsoleApp1/obj/Debug
+/ReportesFacturacion_TME04/ReportesFacturacion/Entities/.vs
+/ReportesFacturacion_TME04/ReportesFacturacion/Entities/bin/Debug
+/ReportesFacturacion_TME04/ReportesFacturacion/Entities/obj/Debug
+/ReportesFacturacion_TME04/ReportesFacturacion/ConsoleApp1/ReportesFacturacion.csproj.user
+/ReportesFacturacion_TME04/ReportesFacturacion/Entities/Entities.csproj.user
+/ReportesFacturacion_TME04/ReportesFacturacion/Business/Business.csproj.user
