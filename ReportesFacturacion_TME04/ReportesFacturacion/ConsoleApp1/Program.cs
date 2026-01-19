@@ -82,7 +82,7 @@ namespace Rpt_TME
                         dt.Columns.Add("HOUSE", typeof(string));
                         dt.Columns.Add("SUBTOTAL MXN", typeof(decimal));
                         dt.Columns.Add("IVA MXN", typeof(decimal));
-                        dt.Columns.Add("TOTAL Documento", typeof(decimal));
+                        dt.Columns.Add("TOTAL", typeof(decimal));
                         dt.Columns.Add("AGENTE", typeof(string));
 
                         foreach (var factura in facturas)
@@ -212,7 +212,7 @@ namespace Rpt_TME
         public string GeneraBody()
         {
             string html =
-            $"<p style='color:black'>Se envía el reporte diario de facturación correspondiente a TME.</p><p style='color: black'>Saludos cordiales.</p><p style='color:gray; font-size:small;'><br/><br/><b style='color: #8A0829'>NOTA IMPORTANTE: </b> Favor de no responder debido a que la cuenta no esta habilitada para recibir respuestas.</p>";
+            $"<p style='color:black'>Se envía el reporte diario de facturación correspondiente a TME04.</p><p style='color: black'>Saludos cordiales.</p><p style='color:gray; font-size:small;'><br/><br/><b style='color: #8A0829'>NOTA IMPORTANTE: </b> Favor de no responder debido a que la cuenta no esta habilitada para recibir respuestas.</p>";
 
             return html;
         }
